@@ -68,7 +68,7 @@ _customData: {
 - `x`: X coordinate of the note
 - `y`: Y coordinate of the note
 - `cutDirection`: What direction the note is facing (see below)
-![Cut Directions](cutDirections.png)
+![Cut Directions](cutDirection.png)
 - --
 
 ### `createObstacle` Creates a wall.
