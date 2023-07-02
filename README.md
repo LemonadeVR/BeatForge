@@ -42,7 +42,11 @@ Everything you write has to start with `map`. For example, if you wanted to crea
 We won't go into much detail here, as there is already another document linked under [Important links](#important-links) that covers this topic.
 
 ## Running your script
+### V1.0.0
 Open up `index.js`, and change `filePath` to your script (`projects/[project name]/[script name].js`).
+
+### V1.1.0 and above
+You don't have to change anything! Just make sure you only have one main script file. If you want to add more than one script, you can do so by creating a folder named `subscripts` in your project folder.
 
 ## Important links
 ### Downloads
