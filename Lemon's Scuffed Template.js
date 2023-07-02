@@ -1,4 +1,4 @@
-// V1.1.0 
+// v1.1.0
 const fs = require('fs');
 const path = require('path');
 const archiver = require('archiver');
@@ -8,7 +8,7 @@ const archiver = require('archiver');
 const projectName = 'lemon';
 const mapName = 'mangoParty';
 const inputDif = 'ExpertStandard.dat';
-const outputDif = 'ExpertPlusStandard';
+const outputDif = 'ExpertPlusStandard.dat';
 
 
 function getRandomInt(min, max) {
@@ -27,7 +27,7 @@ const mapFolder = `projects/${projectName}/${mapName}`;
 const fullInput = `${mapFolder}/${inputDif}`;
 const fullOutput = `${mapFolder}/${outputDif}`;
 
-fs.readFile(inputDif, 'utf8', (error, data) => {
+fs.readFile(fullInput, 'utf8', (error, data) => {
   if (error) {
     console.log('File not found! Make sure inputDif and outputDif are correct.');
     return;
@@ -44,11 +44,11 @@ fs.readFile(inputDif, 'utf8', (error, data) => {
 
 
 
-  // END
+	// END
 
   const outputJSON = JSON.stringify(map, null, 2);
 
-  fs.writeFile(outputDif, outputJSON, 'utf8', (error) => {
+  fs.writeFile(fullOutput, outputJSON, 'utf8', (error) => {
     if (error) {
       console.error('An error occurred:', error);
       return;
