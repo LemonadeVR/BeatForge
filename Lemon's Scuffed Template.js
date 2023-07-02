@@ -20,7 +20,7 @@ function getRandomNum(min, max) {
 }
 
 function getRandomColor() {
-	return [getRandomNum(0, 1), getRandomNum(0, 1), getRandomNum(0, 1), 1];
+  return [getRandomNum(0, 1), getRandomNum(0, 1), getRandomNum(0, 1), 1];
 }
 
 const mapFolder = `projects/${projectName}/${mapName}`;
@@ -35,7 +35,7 @@ fs.readFile(inputDif, 'utf8', (error, data) => {
 
   const map = JSON.parse(data);
 
-	map._customData = { _environment: [], _customEvents: []}
+  map._customData = { _environment: [], _customEvents: []}
 
   // YOUR CODE GOES HERE
 
@@ -44,7 +44,7 @@ fs.readFile(inputDif, 'utf8', (error, data) => {
 
 
 
-	// END
+  // END
 
   const outputJSON = JSON.stringify(map, null, 2);
 
