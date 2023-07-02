@@ -9,7 +9,7 @@
 ## Creating a project
 To get started, create a new folder in `projects`. You can name this whatever you like. Next, create a JavaScript file (you can also name this whatever you like) in the project folder you just created. Afterward, drag your map folder, along with all its contents, into the same folder. Your folder structure should look like this:
 
-![Project Example](images/projectExample.png)
+![Project Example](projectExample.png)
 
 Once you have done that, open up `Lemon's Scuffed Template.js` and copy + paste everything over to the script you created in your project folder.
 
