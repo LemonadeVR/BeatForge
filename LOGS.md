@@ -6,3 +6,7 @@
 ## V1.1.0
 - No longer need to manually change the script path each time
 - Multiple projects supported easier
+
+## V1.2.0
+- Added way more fuctions to make your life easier
+- Huge bug fix
