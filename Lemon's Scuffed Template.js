@@ -1,7 +1,9 @@
-// v1.1.0
+// v1.2.0
 const fs = require('fs');
 const path = require('path');
 const archiver = require('archiver');
+
+
 
 
 // Edit these v   (check README.md for help)
@@ -11,21 +13,26 @@ const inputDif = 'ExpertStandard.dat';
 const outputDif = 'ExpertPlusStandard.dat';
 
 
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 
-function getRandomNum(min, max) {
-  return (Math.random() * (max - min + 1)) + min;
-}
-
-function getRandomColor() {
-  return [getRandomNum(0, 1), getRandomNum(0, 1), getRandomNum(0, 1), 1];
-}
 
 const mapFolder = `projects/${projectName}/${mapName}`;
 const fullInput = `${mapFolder}/${inputDif}`;
 const fullOutput = `${mapFolder}/${outputDif}`;
+
+const {
+  getRandomInt,
+  getRandomNum,
+  getRandomColor,
+  createNote,
+  createObstacle,
+  createEvent,
+  createCustomEvent,
+  clamp,
+  randElement,
+  addNoodleRequirement,
+  addChromaSuggestion,
+  addChromaRequirement
+} = require('./libraries/libhelpers.js');
 
 fs.readFile(fullInput, 'utf8', (error, data) => {
   if (error) {
@@ -35,7 +42,7 @@ fs.readFile(fullInput, 'utf8', (error, data) => {
 
   const map = JSON.parse(data);
 
-  map._customData = { _environment: [], _customEvents: []}
+	map._customData = { _environment: [], _customEvents: []}
 
   // YOUR CODE GOES HERE
 
