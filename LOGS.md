@@ -8,5 +8,5 @@
 - Multiple projects supported easier
 
 ## v1.2.0
-- Added way more fuctions to make your life easier
+- Added way more functions to make your life easier
 - Huge bug fix
