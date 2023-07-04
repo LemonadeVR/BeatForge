@@ -1,4 +1,4 @@
-// v1.2.0
+// v0.3.0
 const fs = require('fs');
 const path = require('path');
 const archiver = require('archiver');
