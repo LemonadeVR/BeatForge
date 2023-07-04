@@ -1,4 +1,4 @@
-# Lemon's Scuffed Template
+# BeatForge
 
 ## What you will need
 (You can find all these in [Important links](#important-links))
@@ -45,12 +45,12 @@ We won't go into much detail here, as there is already another document linked u
 
 
 ## Functions
-### v1.0.0 and above
+### v0.1.0 and above
 - `getRandomNum(min, max)`
 - `getRandomInt(min, max)`
 - `getRandomColor()`
 
-### v1.2.0 and above
+### v0.3.0 and above
 - `createNote(time, type, x, y, cutDirection)`
 - `createObstacle(time, type, x, duration, width)`
 - `createEvent(time, type, value)`
