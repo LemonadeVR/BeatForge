@@ -18,7 +18,7 @@ To get started, create a new folder in `projects`. You can name this whatever yo
 
 ![Project Example](replit.png)
 
-Once you have done that, open up `Lemon's Scuffed Template.js` and copy + paste everything over to the script you created in your project folder.
+Once you have done that, open up either `BeatForgeTemplate_VSC.js` or `BeatForgeTemplate_Replit.js` (depending on what you're using) and copy + paste everything over to the script you created in your project folder.
 
 
 ## Setting up your script
