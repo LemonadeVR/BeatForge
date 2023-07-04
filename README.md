@@ -10,11 +10,11 @@
 ## Creating a project
 To get started, create a new folder in `projects`. You can name this whatever you like. Next, create a JavaScript file (you can also name this whatever you like) in the project folder you just created. Afterward, drag your map folder, along with all its contents, into the same folder. Your folder structure should look like this:
 
-Visual Studio Code
+**Visual Studio Code:**
 
 ![Project Example](vsc.png)
 
-Replit
+**Replit:**
 
 ![Project Example](replit.png)
 
