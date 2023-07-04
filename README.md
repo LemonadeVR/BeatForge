@@ -10,7 +10,13 @@
 ## Creating a project
 To get started, create a new folder in `projects`. You can name this whatever you like. Next, create a JavaScript file (you can also name this whatever you like) in the project folder you just created. Afterward, drag your map folder, along with all its contents, into the same folder. Your folder structure should look like this:
 
-![Project Example](projectExample.png)
+Visual Studio Code
+
+![Project Example](vsc.png)
+
+Replit
+
+![Project Example](replit.png)
 
 Once you have done that, open up `Lemon's Scuffed Template.js` and copy + paste everything over to the script you created in your project folder.
 
@@ -29,6 +35,13 @@ const outputDif = 'ExpertPlusStandard';
 Based on the image above in [Creating a project](#creating-a-project), you might have already guessed their purpose. `projectName` is the name of your project folder, `mapName` is the name of your map folder, `inputDif` is your input difficulty, and so on. It's pretty self-explanatory.
 
 There is no need to enter the full directory, as the script will do that for you. For example, using `ExpertStandard.dat` will autofill to `projects/lemon/mangoParty/ExpertStandard.dat`.
+
+
+## Writing your script
+### A brief introduction
+Everything you write has to start with `map`. For example, if you wanted to create a note, you would use `map._notes.push()` (V2 Example).
+
+We won't go into much detail here, as there is already another document linked under [Important links](#important-links) that covers this topic.
 
 
 ## Functions
@@ -68,6 +81,7 @@ _customData: {
 - `x`: X coordinate of the note
 - `y`: Y coordinate of the note
 - `cutDirection`: What direction the note is facing (see below)
+
 ![Cut Directions](cutDirection.png)
 - --
 
@@ -141,19 +155,24 @@ randElement(myArray);
 Examples: 'Easy', 'Normal', 'Hard', 'Expert', 'ExpertPlus'
 
 
-## Writing your script
-### A brief introduction
-Everything you write has to start with `map`. For example, if you wanted to create a note, you would use `map._notes.push()` (V2 Example).
-
-We won't go into much detail here, as there is already another document linked under [Important links](#important-links) that covers this topic.
-
-
 ## Running your script
 ### v1.0.0
 Open up `index.js`, and change `filePath` to your script (`projects/[project name]/[script name].js`).
 
 ### v1.1.0 and above
 You don't have to change anything! Just make sure you only have one main script file. If you want to add more than one script, you can do so by creating a folder named `subscripts` in your project folder.
+
+### ALL VERSIONS
+
+**Visual Studio Code:**
+
+1. Click on 'Terminal' at the top of your screen and create a new terminal.
+2. Ensure that your terminal displays `PS [extracted_zip_location]>`. If it doesn't show the correct directory, enter `cd "[extracted_zip_location]"` and press Enter. Make sure to enclose the new location in quotes.
+3. Once you have verified that the terminal is running in the correct directory, type `node index.js` and press Enter.
+
+**Replit:**
+
+Simply click 'Run'.
 
 
 ## Important links
