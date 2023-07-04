@@ -39,7 +39,7 @@ fs.readFile(fullInput, 'utf8', (error, data) => {
     console.log('File not found! Make sure inputDif and outputDif are correct.');
     return;
   }
-
+ 
   const map = JSON.parse(data);
 
 	map._customData = { _environment: [], _customEvents: []}
